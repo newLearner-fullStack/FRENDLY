@@ -1,0 +1,356 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #241D27;
+    color: #F8EAF0;
+    min-width: 430px;
+}
+
+#cMS {
+
+    /* width: 65%;
+    height: 7%; */
+
+    align-content: center;
+
+    /* background-color: #09d52b; */
+    display: block;
+    /* display: none; */
+    flex: 0 1 auto;
+    align-self: flex-start;
+
+    /* width: fit-content;
+     max-width: 300px; 
+    /* height: fit-content;
+    max-height: none; */
+
+    overflow-wrap: break-word;
+
+
+    border-radius: 10px;
+    background-color: #E2A9C0;
+    color: #30222D;
+    border: 1px solid #F4CDDC;
+
+    min-width: 65%;
+    min-height: 7%;
+}
+
+
+.chat {
+    background-color: #62485B;
+    color: #F8EAF0;
+    border: 1px solid #98758C;
+    width: 100%;
+    /* top: 10vw; */
+    position: relative;
+    left: 0%;
+    display: flex;
+    /* display: none; */
+    height: 9vh;
+    flex-shrink: 0;
+}
+
+.lo {
+    /* background-color: #000102; */
+    background-color: #4773be;
+    width: 19vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.con {
+    /* background-color: #fbb6fb; */
+    width: 89vw;
+    height: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.nm {
+    /* background-color: #1d1855; */
+    color: #c67792;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    font-size: 1.8rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#mess {
+    /* background-color: #8a55a6; */
+    color: #DDBFD0;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.f {
+    position: absolute;
+    left: 0%;
+}
+
+.s {
+    position: absolute;
+    right: 0%;
+}
+
+
+
+
+
+
+
+
+/* login page  */
+
+
+#login {
+    overflow: hidden;
+    /* background-color: #82ee06; */
+    display: none;
+    height: 90vh;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100vw;
+}
+
+#par {
+    /* background-color: #ee066e; */
+    background-color: #493746;
+    color: #F8EAF0;
+    font-size: 1.5rem;
+    height: 90%;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+}
+
+#info {
+    /* background-color: #1e13f2; */
+    left: 10%;
+    height: 60%;
+    align-items: center;
+    justify-content: left;
+    border-radius: 30px;
+    position: absolute;
+    width: 80%;
+}
+
+.hi {
+    width: 35%;
+    border-radius: 30px;
+    height: 5%;
+    font-size: 1.5rem;
+    background-color: #62485B;
+    color: #FFF1F6;
+    border: 1px solid #C18FA9;
+}
+
+#subBUT {
+    /* background-color: #1e13f2; */
+    height: 20%;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    align-content: center;
+}
+
+#txt {
+    /* background-color: #f2136c; */
+    font-size: 1.3rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #E2A9C0;
+}
+
+
+
+
+/* main page   */
+
+
+#mainpg {
+    background-color: #302631;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* display: none; */
+    height: 97vh;
+}
+
+#header {
+    background-color: #a26f94;
+    border-color: #98758C;
+    width: 98vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#idtt {
+    /* background-color: #a31d96; */
+    width: 38vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+    display: flex;
+}
+
+#logo {
+    background-color: #c580c0;
+    color: #FFF1F6;
+    width: 25%;
+    height: 9vh;
+    display: flex;
+}
+
+#nme {
+    /* background-color: #dcae26; */
+    color: #FFF1F6;
+    width: 65%;
+    height: 9vh;
+    display: flex;
+}
+
+
+#func {
+    /* background-color: #492c21; */
+    width: 62vw;
+    display: flex;
+    height: 10vh;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+#ser {
+    background-color: #806477;
+    color: #FFF1F6;
+    width: 15%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#opt {
+    background-color: #E2A9C0;
+    color: #30222D;
+    width: 5%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#chtcon {
+    background-color: #241D27;
+    width: 100%;
+    height: 87vh;
+
+}
+
+#all {
+    width: 48%;
+    height: 87vh;
+    background-color: #493746;
+    border-color: #98758C;
+    position: absolute;
+    left: 1%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+#CHAT {
+    width: 52%;
+    height: 87vh;
+    background-color: #382B37;
+    position: absolute;
+    right: -1%;
+}
+
+#IDNTT {
+    width: 100%;
+    height: 10vh;
+    background-color: #806477;
+    display: flex;
+}
+
+#logoC {
+    width: 20%;
+    height: 10vh;
+    background-color: #844e76;
+    color: #FFF1F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nmeC {
+    width: 80%;
+    height: 10vh;
+    font-size: 1.9rem;
+    color: #FFF1F6;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#messs {
+    width: 100%;
+    height: 70vh;
+    background-color: #29222D;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+
+#sender {
+    width: 100%;
+    height: 7vh;
+    background-color: #442b40;
+    border-top: 1px solid #98758C;
+    display: flex;
+    /* justify-content: center;
+            align-content: center; */
+    align-items: flex-start;
+
+}
+
+* {
+    border-radius: 9px;
+}
