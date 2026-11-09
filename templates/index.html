@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>FRENDLY</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  </head>
+  <body>
+    <div id="login">
+      <div id="par">
+        <h2>Login</h2>
+
+        <div id="info">
+          <h4>YOUR USERNAME</h4>
+          <input class="hi" type="text" name="uid" id="uid" />
+          <h4>YOUR PASSWORD</h4>
+          <input class="hi" type="password" name="pass" id="password" />
+
+          <div id="subBUT">
+            <button id="tt" type="button">GO TO CHATS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mainpg">
+      <div id="header">
+        <div id="idtt">
+          <div id="logo">
+            <img src="../static/logo.png" alt="FRENDLY" />
+          </div>
+          <div id="nme">
+            <h1 id="h1">FRENDLY</h1>
+          </div>
+        </div>
+
+        <div id="sI">
+          
+        </div>
+
+        <div id="func">
+          <div class="qq" id="ser">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="qq" id="opt">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+      <div id="chtcon">
+        <div class="all" id="all">
+          <!--         <div class="chat">
+            <div class="lo">log</div>
+            <div class="con">
+              <div class="nm">nAME</div>
+              <div class="mess">MESSAGE</div>
+            </div>
+          </div> 
+          
+          -->
+        </div>
+
+        <div id="CHAT">
+          <div id="IDNTT">
+            <div id="logoC"></div>
+            <div id="nmeC"></div>
+          </div>
+
+          <div id="messs">
+            <!--     <div class="cMS">
+              addddddd
+            </div>   -->
+          </div>
+
+          <div id="sender">
+            <textarea name="messageS" id="messageS" tabindex="0"></textarea>
+
+            <div id="buttonS">
+              <img src="{{ url_for('static', filename='send.png') }}" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='socket.io.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
